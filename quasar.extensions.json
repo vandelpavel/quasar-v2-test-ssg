@@ -1,0 +1,8 @@
+{
+  "@dreamonkey/meta": {},
+  "@dreamonkey/animate": {},
+  "ssg": {
+    "scripts": true,
+    "inlineCriticalCss": true
+  }
+}

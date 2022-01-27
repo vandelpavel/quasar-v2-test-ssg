@@ -1,0 +1,96 @@
+{
+  "quasarVersion": "2.4.12",
+  "quasarAppVersion": "3.2.9",
+  "quasarExtrasVersion": "1.12.4",
+  "ssgAppExtensionVersion": "3.1.4",
+  "ssr": {
+    "pwa": false,
+    "manualStoreHydration": false,
+    "manualPostHydrationTrigger": false,
+    "prodPort": 3000,
+    "maxAge": 2592000000,
+    "middlewares": [
+      {
+        "path": "src-ssr/middlewares/compression"
+      },
+      {
+        "path": "src-ssr/middlewares/render"
+      }
+    ],
+    "directiveTransforms": {}
+  },
+  "snapshot": {
+    "babel.config.js": {
+      "checksum": "2218a0db"
+    },
+    "package.json": {
+      "checksum": "b895739a"
+    },
+    "quasar.conf.js": {
+      "checksum": "fc0ce689"
+    },
+    "tsconfig.json": {
+      "checksum": "eacdae82"
+    },
+    "quasar.extensions.json": {
+      "checksum": "172a5b2b"
+    },
+    "src/env.d.ts": {
+      "checksum": "19e79649"
+    },
+    "src/App.vue": {
+      "checksum": "141a7232"
+    },
+    "src/index.template.html": {
+      "checksum": "d833493e"
+    },
+    "src/quasar.d.ts": {
+      "checksum": "9c3beefd"
+    },
+    "src/shims-vue.d.ts": {
+      "checksum": "367bf269"
+    },
+    "src-ssr/production-export.js": {
+      "checksum": "3508ae85"
+    },
+    "src-ssr/ssr-flag.d.ts": {
+      "checksum": "a54e81f"
+    },
+    "src/components/CompositionComponent.vue": {
+      "checksum": "9d1f3e78"
+    },
+    "src/assets/quasar-logo-vertical.svg": {
+      "checksum": "e57dc397"
+    },
+    "src/components/models.ts": {
+      "checksum": "4924d988"
+    },
+    "src/css/app.scss": {
+      "checksum": "8ac965"
+    },
+    "src/components/EssentialLink.vue": {
+      "checksum": "d235a642"
+    },
+    "src/css/quasar.variables.scss": {
+      "checksum": "1a5484db"
+    },
+    "src/layouts/MainLayout.vue": {
+      "checksum": "79de1e0f"
+    },
+    "src/pages/Error404.vue": {
+      "checksum": "b4a30bcf"
+    },
+    "src/pages/Index.vue": {
+      "checksum": "d31e8f06"
+    },
+    "src/router/index.ts": {
+      "checksum": "62f9d992"
+    },
+    "src/router/routes.ts": {
+      "checksum": "276ecb5b"
+    },
+    "yarn.lock": {
+      "checksum": "374cb4d"
+    }
+  }
+}
